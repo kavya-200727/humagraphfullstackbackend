@@ -20,8 +20,7 @@ public class CorsConfig {
                                 List.of(
                                                 "http://localhost:5500",
                                                 "http://127.0.0.1:5500",
-                                                "null",
-                                                "file://*"));
+                                "https://kavya-200727.github.io/humagraphfullstackfrontend/"));
 
                 config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
                 config.setAllowedHeaders(List.of("*"));
